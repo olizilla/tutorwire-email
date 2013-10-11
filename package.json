@@ -1,0 +1,26 @@
+{
+  "name": "tutorwire-email",
+  "version": "0.1.0",
+  "description": "Sending emails for tutorwires",
+  "main": "index.js",
+  "scripts": {
+    "test": "say sorry",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:olizilla/tutorwire-email.git"
+  },
+  "author": "@olizilla",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/olizilla/tutorwire-email/issues"
+  },
+  "dependencies": {
+    "mandrill-api": "~1.0.35",
+    "config": "~0.4.30",
+    "extract": "~1.0.0",
+    "dnode": "~1.0.5",
+    "marked": "~0.2.9"
+  }
+}
